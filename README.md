@@ -15,10 +15,10 @@ take a look to this project and why not installing the tool.
 
 There is a non-exhaustive list of ways to get root on your docker host using
 docker containers, assuming you can issue docker commands without restrictions.
-    - using one of the mount overlay option to mount your own root filesystem
-    inside a container on which you are root. You can then modify of your host
-    with the root user available in the container.
-    - using the --privileged options provided by several docker subcommands: https://github.com/moby/moby/issues/9976
+ * using one of the mount overlay option to mount your own root filesystem
+   inside a container on which you are root. You can then modify of your host
+   with the root user available in the container.
+ * using the `--privileged` options provided by several docker subcommands: https://github.com/moby/moby/issues/9976
 
 # Installation
 
