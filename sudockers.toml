@@ -1,6 +1,6 @@
 [policies]
 # duplicate and modify entries for other users
-quentin = [
+username = [
     # docker without arg
     'docker',
     # can see any help
