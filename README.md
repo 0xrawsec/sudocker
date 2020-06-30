@@ -22,9 +22,15 @@ docker containers, assuming you can issue docker commands without restrictions.
 
 # Installation
 
+## From Source
 ```
 make
 sudo make install
+```
+
+## From Release
+```
+sudo ./install.sh
 ```
 
 # Configuration
