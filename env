@@ -1,0 +1,2 @@
+INSTALL_DIR=/usr/bin
+CONFIG_DIR=/etc/sudocker

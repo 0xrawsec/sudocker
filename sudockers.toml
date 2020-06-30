@@ -1,0 +1,17 @@
+[policies]
+# duplicate and modify entries for other users
+quentin = [
+    # docker without arg
+    'docker',
+    # can see any help
+    'docker\s+[a-z]+(\s+--help)?',
+    # allow any of these docker subcommands 
+    'docker\s+(ps|start|stop|inspect)\s+.*?',
+    # restrict usage of docker image
+    'docker image(\s+(-h|ls|history.*))?',
+    # restrict docker exec usage
+    'docker\s+exec(\s+(-d|-i|-t))*\s+\w+.*',
+    # restrict options which can be used with docker run but allows all images
+    'docker run(\s+(-i|--rm|-t|--name\s+\w+))*\s+[\w:]+\s*.*',
+]
+
